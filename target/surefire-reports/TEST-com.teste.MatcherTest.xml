@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.teste.AssertTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.teste.MatcherTest" time="0.075" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.7+8-LTS"/>
@@ -64,11 +64,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.teste.AssertTest" name="testAssertNotNull" time="0.003"/>
-  <testcase classname="com.teste.AssertTest" name="testAssertNotSame" time="0"/>
-  <testcase classname="com.teste.AssertTest" name="testAssertFalse" time="0"/>
-  <testcase classname="com.teste.AssertTest" name="testAssertEquals" time="0"/>
-  <testcase classname="com.teste.AssertTest" name="testAssertArrayEquals" time="0.002"/>
-  <testcase classname="com.teste.AssertTest" name="testAssertNull" time="0"/>
-  <testcase classname="com.teste.AssertTest" name="testAssertSame" time="0"/>
+  <testcase classname="com.teste.MatcherTest" name="givenCollection_checkEmpty" time="0.003"/>
+  <testcase classname="com.teste.MatcherTest" name="givenBean_checkToString" time="0.004"/>
+  <testcase classname="com.teste.MatcherTest" name="givenAnInteger_checkGreater" time="0.001"/>
+  <testcase classname="com.teste.MatcherTest" name="givenString_checkNull" time="0.003"/>
+  <testcase classname="com.teste.MatcherTest" name="givenBean_checkPropertyExist" time="0.064"/>
 </testsuite>
